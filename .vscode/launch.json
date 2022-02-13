@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Excel Call Data TVan Api",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/change_data_tvan/index.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Gen XML Manual",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/change_data_tvan/gen_xml_manual.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Gen Json Statement From XML",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/change_data_tvan/map_xml_2_json_statement.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Gen Data Excel Inv",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/get_data_excel_inv/get_sec_inv.js"
+    },
+  ]
+}
